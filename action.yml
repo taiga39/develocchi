@@ -1,0 +1,9 @@
+name: 'PR Open Check'
+description: 'Check for multiple open PRs by the same author when a new PR is opened'
+inputs:
+  github-token:
+    description: 'GitHub token'
+    required: true
+runs:
+  using: 'node16'
+  main: 'src/main.js'

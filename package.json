@@ -1,0 +1,16 @@
+{
+    "name": "develocchi",
+    "version": "1.0.0",
+    "description": "GitHub Action to check for multiple open PRs",
+    "main": "src/main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": ["github", "actions", "pull request"],
+    "author": "taiga by nessieco-op",
+    "license": "MIT",
+    "dependencies": {
+      "@actions/core": "^1.10.0",
+      "@actions/github": "^5.1.1"
+    }
+  }
